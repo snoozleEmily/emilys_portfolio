@@ -1,13 +1,29 @@
+:root {
+  --clr--base: #d0d6d8;            /* Light gray */
+  --clr--secondary-base: #b4bbb5;  /* Light green */
+  --clr--letters: #2c2c2c;         /* Dark gray */
+  --clr--navbar: #254551;          /* Navy blue */
+  --clr--container: #ffffff80;     /* Semi-transparent white */
+  --clr--border: #797979;          /* Gray */
+  --clr--border--hover: #000000;   /* Black */
+  --clr--hover: #05050575;         /* Semi-transparent black */
+  --clr--icons: #f7f7f7;           /* Light gray */
+}
+
 body {
   margin: 0;
+
+  background: linear-gradient(180deg, var(--clr--base), var(--clr--secondary-base));
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: var(--clr--letters);
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  position: relative;
+  min-height: 100vh;
 }

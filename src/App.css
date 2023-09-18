@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+@import url(index.css);
+
+.navbar-data {
+  display: flex;
+  width: 100%;
+  padding-bottom: 6px;
+  top: 0;
+  background-color: var(--clr--navbar);
+  overflow: visible;
+}
+.icons-data {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2px;
+  margin-top: 4px;
+  margin-left: 3px;
+  position: absolute;
+  left: 0;
+}
+.icon-data {
+  width: 20px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+  color: var(--clr--icons);
+}
+.icon-data:hover {
+  width: 22px;
+  transform: scale(1.1);
+  margin-right: -2px;
+}
+.icon-data:active {
+  transform: scale(0.99);
+}
+.flags-data {
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 4px;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 8px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flag-data {
+  width: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+.flag-data:hover {
+  width: 27px;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 8px var(--clr--border--hover);
+  margin-top: -2px;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+.flag-data:active {
+  transform: scale(0.98);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.presentation-container-data {
+  width: 80%;
+  height: auto;
+  margin: 0 0 0 15px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: var(--clr--container);
+  box-shadow: 5px 5px 8px var(--clr--border);
+  padding: 5px 30px 1px;
+  max-width: 55em;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.title-data{
+  font-size: 48px;
+  letter-spacing: 2.5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.presentaition-data {
+  font-size: 24px;
+  text-align: justify;
 }

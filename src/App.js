@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState} from "react";
+import intros from "./data.js";
+import Presentation from "./Presentation.js";
+import Navbar from "./Navbar.js";
+import "./App.css";
+
 
 function App() {
+  const [language, setLanguage] = useState(intros[0]);
+
+  // eslint-disable-next-line no-unused-vars
+  const changeLanguage = (data) => {
+    const currentIndex = data.indexOf(language);
+    if (currentIndex !== -1 && currentIndex < data.length - 1) {
+      setLanguage(data[currentIndex + 1]);
+    }
+  };
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+          <Navbar setLanguage={setLanguage} />
+          <section>
+            <div className="container-data">
+              <Presentation language={language} />
+            </div>
+          </section>
+    </main>
   );
 }
 
