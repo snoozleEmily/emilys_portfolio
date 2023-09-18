@@ -6,7 +6,7 @@ Welcome to Emily's Coding Journey, a website showcasing my progress and experien
 I plan to add a section showcasing future projects and new technologies as I learn them on my coding journey. Stay tuned for more updates!
 
 ## Getting Started
-To get started, simply visit the website at https://snoozleemily.github.io/The-Coding-Journey-Of-Emily/
+To get started, simply visit the website at 
 
 ## Authors
 snoozleEmily - Initial work - Emily's Coding Journey
