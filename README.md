@@ -1,3 +1,4 @@
+[This project is a WIP]
 
 # # **Emily's Coding Journey**
 Welcome to Emily's Coding Journey, a website showcasing my progress and experiences as a techie. This site was built using React and the Create React App boilerplate.
