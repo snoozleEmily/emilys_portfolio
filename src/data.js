@@ -1,3 +1,5 @@
+// I will update this soon since now I am pursuing the data science path o/
+
 const intros = [
   {
     title: `Hello, I am Emily, and I am currently learning how to become a front-end developer.`, 
