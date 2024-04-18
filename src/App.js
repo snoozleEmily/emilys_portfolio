@@ -1,4 +1,4 @@
-import { useState} from "react";
+import {useState} from "react";
 import intros from "./data.js";
 import Presentation from "./Presentation.js";
 import Navbar from "./Navbar.js";
