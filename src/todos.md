@@ -4,7 +4,7 @@
 
 - [ ] Add a column on the right corner displaying some projects.
   - Relevant Projects:
-    - Simple game in Python(add link[])
+    - Simple initial project in Python(add link[])
     - Data-related project in Python/SQL(add link[])
 - [ ] Update the link to relevant projects.
 
