@@ -1,24 +1,24 @@
 @import url(index.css);
 
 .navbar-data {
-  display: flex;
+  display: flex;  
   width: 100%;
-  padding-bottom: 6px;
+  padding-bottom: 7px;
   top: 0;
   background-color: var(--clr--navbar);
   overflow: visible;
 }
 .icons-data {
   display: inline-grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 2px;
-  margin-top: 4px;
+  margin-top: 3.4px;
   margin-left: 3px;
   position: absolute;
   left: 0;
 }
 .icon-data {
-  width: 20px;
+  width: 21px;
   height: auto;
   transition: transform 0.3s ease-in-out;
   color: var(--clr--icons);
@@ -31,18 +31,52 @@
 .icon-data:active {
   transform: scale(0.99);
 }
-.flags-data {
-  display: inline-grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 4px;
-  margin-left: auto;
-  margin-right: 10px;
-  margin-top: 8px;
+
+.icon-menu{
+  width: 25px;
+  height: auto;
+  color: var(--clr--icons);
+  margin-bottom: -10px;
+  margin-right: 2px;
+}
+.icon-menu:hover {
+  width: 25.7px;
+}
+.icon-menu:active {
+  transform: scale(1.0);
+}
+.icon-menu-toggle{  
+  margin-right: 124px;
+  transform: rotate(180deg) scale(1.0);
+  transition: margin-right 0.3s ease-in-out;
 }
 
+.flags-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.flags-data {
+  display: inline-grid;
+  position: absolute;
+  top: 38%;
+  right: 0%;
+  margin-left: auto;
+  margin-right: 8px;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 4px;
+
+  opacity: 0;
+  visibility: hidden;
+}
+
+.flags-visible {
+  animation: fadeIn 0.5s ease forwards;
+}
 .flag-data {
   width: 25px;
-  transition: transform 0.3s ease-in-out;
 }
 .flag-data:hover {
   width: 27px;
@@ -55,6 +89,7 @@
 .flag-data:active {
   transform: scale(0.98);
 }
+
 
 .presentation-container-data {
   width: 80%;

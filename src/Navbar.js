@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
+import Flags from "./flags"
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
-import Flags from "./flags";
+;
 
 function Navbar({ setLanguage }) {
   return (
@@ -13,12 +13,6 @@ function Navbar({ setLanguage }) {
           className="icon-data"
           onClick={() =>
             window.open("https://github.com/snoozleEmily", "_blank")
-          }
-        />
-        <FaInstagramSquare
-          className="icon-data"
-          onClick={() =>
-            window.open("https://www.instagram.com/emilytechie/", "_blank")
           }
         />
         <FaLinkedin
@@ -31,7 +25,9 @@ function Navbar({ setLanguage }) {
           }
         />
       </div>
-      <Flags setLanguage={setLanguage} />
+      <div className="flags-container">
+        <Flags setLanguage={setLanguage} />
+      </div>
     </header>
   );
 }
