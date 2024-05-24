@@ -105,7 +105,10 @@
 }
 .title-data{
   font-size: 48px;
-  letter-spacing: 2.5px;
+  letter-spacing: 2.6px;
+  color: var(--clr--title);
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 .presentaition-data {
   font-size: 24px;

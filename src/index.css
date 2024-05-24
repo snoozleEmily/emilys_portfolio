@@ -1,13 +1,14 @@
 :root {
-  --clr--base: #d0d6d8;            /* Light gray */
-  --clr--secondary-base: #b4bbb5;  /* Light green */
-  --clr--letters: #2c2c2c;         /* Dark gray */
-  --clr--navbar: #254551;          /* Navy blue */
-  --clr--container: #ffffff80;     /* Semi-transparent white */
-  --clr--border: #797979;          /* Gray */
-  --clr--border--hover: #000000;   /* Black */
-  --clr--hover: #05050575;         /* Semi-transparent black */
-  --clr--icons: #f7f7f7;           /* Light gray */
+  --clr--base: #bebebe;           
+  --clr--secondary-base: #e0e0e0;  
+  --clr--letters: #2c2c2c;
+  --clr--title: #131313;
+  --clr--navbar: #202020;      
+  --clr--container: #e0e0e0;
+  --clr--border: #535353;         
+  --clr--border--hover: #000000;   
+  --clr--hover: #05050575;      
+  --clr--icons: #f7f7f7;          
 }
 
 body {

@@ -4,12 +4,12 @@ const intros = [
   {
     title: `Hello, I'm Emily and I aspire to become a Data Scientist`,
 
-    presentation: `Combining a background in ESL teaching with recent experience in QA testing, I'm now immersed in a Data Science university program. I have a passion for technology and a commitment to mastering Statistics, Python, and data analysis. Before deciding to pursue Data Science, I was studying front-end development, which provided me with a solid foundation in JavaScript and a good understanding of SQL, HTML, CSS, and ReactJS. I am always ready to face new challenges. I am always ready to face new challenges and commit to reading books, meeting peers, taking courses, and engaging myself in anything data-related.`,
+    presentation: `Combining a background in ESL teaching with recent experience in QA testing, I'm now immersed in a Data Science university program. I have a passion for technology and a commitment to mastering Statistics, Python, and data analysis. Before deciding to pursue Data Science, I was studying front-end development, which provided me with a solid foundation in JavaScript and a good understanding of SQL, HTML, CSS, and ReactJS. I am always ready to face new challenges and commit to reading books, meeting peers, taking courses, and engaging myself in anything data-related.`,
   },
   {
-    title: `Olá, me chamo Emily e pretendo me tornar uma Cientista de Dados`,
+    title: `Olá, me chamo Emily e quero ser Cientista de Dados`,
 
-    presentation: `Desde minha experiência como professora de inglês até minha experiência recente como QA tester, agora tenho meu foco no curso de Ciência de Dados. Tenho uma paixão pela tecnologia e estou compromissada em dominar Estatística, Python e análise de dados. Antes de decidir seguir a área de Ciência de Dados, estava estudando desenvolvimento front-end, o que me concedeu uma base sólida em JavaScript e uma ótima noção de SQL, HTML, CSS e ReactJS. Sempre pronta para aceitar novos desafios, eu me disponho a ler livros, fazer networking, fazer cursos e respirar em qualquer coisa relacionada a dados.`,
+    presentation: `Desde minha experiência como professora de inglês até minha experiência recente como QA tester, agora tenho meu foco no curso de Ciência de Dados. Tenho uma paixão pela tecnologia e estou compromissada em dominar Estatística, Python e análise de dados. Antes de decidir seguir a área de Ciência de Dados, estava estudando desenvolvimento front-end, o que me concedeu uma base sólida em JavaScript e uma ótima noção de SQL, HTML, CSS e ReactJS. Sempre pronta para aceitar novos desafios, me disponho a ler livros, fazer networking, fazer cursos e respirar em qualquer coisa relacionada a dados.`,
   },
   {
     title: `Hola, soy Emily y quiero ser una Científica de Datos`,
