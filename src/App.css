@@ -1,83 +1,100 @@
 @import url(index.css);
 
+/* Navbar styling */
 .navbar-data {
-  display: flex;  
+  display: flex;
+  top: 0;
   width: 100%;
   padding-bottom: 7px;
-  top: 0;
   background-color: var(--clr--navbar);
   overflow: visible;
 }
+
+/* Icons container styling */
 .icons-data {
   display: inline-grid;
+  position: absolute;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2px;
-  margin-top: 3.4px;
   margin-left: 3px;
-  position: absolute;
+  margin-top: 3.4px;
   left: 0;
 }
+
+/* Individual icon styling */
 .icon-data {
   width: 21px;
   height: auto;
-  transition: transform 0.3s ease-in-out;
   color: var(--clr--icons);
+  transition: transform 0.3s ease-in-out;
 }
+
+/* Hover effect for icons */
 .icon-data:hover {
   width: 22px;
   transform: scale(1.1);
   margin-right: -2px;
 }
+
+/* Active state for icons */
 .icon-data:active {
   transform: scale(0.99);
 }
 
-.icon-menu{
+/* Menu icon styling */
+.icon-menu {
   width: 25px;
   height: auto;
   color: var(--clr--icons);
-  margin-bottom: -10px;
   margin-right: 2px;
+  margin-bottom: -10px;
 }
+
+/* Hover effect for menu icon */
 .icon-menu:hover {
   width: 25.7px;
 }
+
+/* Active state for menu icon */
 .icon-menu:active {
-  transform: scale(1.0);
+  transform: scale(1);
 }
-.icon-menu-toggle{  
+
+/* Toggle menu icon styling */
+.icon-menu-toggle {
   margin-right: 124px;
-  transform: rotate(180deg) scale(1.0);
+  transform: rotate(180deg) scale(1);
   transition: margin-right 0.3s ease-in-out;
 }
 
+/* Flags container styling */
 .flags-container {
-  position: relative;
   display: flex;
+  position: relative;
   align-items: center;
   margin-left: auto;
 }
+
+/* Flags grid container styling */
 .flags-data {
   display: inline-grid;
   position: absolute;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 4px;
   top: 38%;
   right: 0%;
   margin-left: auto;
   margin-right: 8px;
-
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 4px;
-
   opacity: 0;
   visibility: hidden;
 }
 
-.flags-visible {
-  animation: fadeIn 0.5s ease forwards;
-}
+/* Individual flag styling */
 .flag-data {
   width: 25px;
 }
+
+/* Hover effect for flags */
 .flag-data:hover {
   width: 27px;
   transform: scale(1.1);
@@ -86,31 +103,73 @@
   margin-left: -2px;
   margin-right: -2px;
 }
+
+/* Active state for flags */
 .flag-data:active {
   transform: scale(0.98);
 }
 
-
+/* Presentation container styling */
 .presentation-container-data {
   width: 80%;
   height: auto;
   margin: 0 0 0 15px;
-
+  max-width: 55em;
   background-color: var(--clr--container);
   box-shadow: 5px 5px 8px var(--clr--border);
-  padding: 5px 30px 1px;
-  max-width: 55em;
+  padding: 5px 30px 35px;
   display: flex;
   flex-direction: column;
 }
-.title-data{
+
+/* Title styling */
+.title-data {
   font-size: 48px;
   letter-spacing: 2.6px;
   color: var(--clr--title);
   margin-top: 0;
   margin-bottom: 20px;
 }
+
+/* Presentation text styling */
 .presentaition-data {
   font-size: 24px;
   text-align: justify;
+}
+
+/* Read more link styling */
+.read-more {
+  position: relative;
+  bottom: -15px;
+  font-size: 16px;
+  text-align: left;
+  width: fit-content;
+  color: var(--clr--button);
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  padding: 0 10px 0 0;
+  border: none;
+  background: transparent;
+  transition: color 0.3s ease, letter-spacing 0.3s ease;
+}
+
+/* Hover effect for read more link */
+.read-more:hover {
+  color: var(--clr--button--hover);
+  letter-spacing: 0.8px;
+  padding: 0 10px 0 1x;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to right,
+    var(--clr--button-background-hover-medium),
+    transparent
+  );
+  background-size: 200%;
+  background-position: 0%;
+  animation: gradientMove 0.3s ease-in-out;
+}
+
+/* Active state for read more link */
+.read-more:active {
+  animation: fadeOutButton 0.3s ease-out;
 }

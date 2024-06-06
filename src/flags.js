@@ -31,7 +31,7 @@ const flags = [
 
 function Flags({ setLanguage }) {
   const [flagsVisible, setFlagsVisible] = useState(false);
-  console.log(flagsVisible);
+  
   const toggleFlagsVisibility = () => {
     setFlagsVisible(!flagsVisible);
   };

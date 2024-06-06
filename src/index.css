@@ -1,17 +1,25 @@
+/* Root variables */
 :root {
   --clr--base: #bebebe;
   --clr--secondary-base: #e0e0e0;
   --clr--letters: #2c2c2c;
-  --clr--title: #131313;
+  --clr--title: #131313;  
   --clr--navbar: #202020;
   --clr--container: #e0e0e0;
   --clr--border: #535353;
-  --clr--border--hover: #000000;
+  --clr--border-hover: #000000;
   --clr--hover: #05050575;
   --clr--icons: #f7f7f7;
+  --clr--button: #4e4e4e;
+  --clr--button-hover: #272626;
+  --clr--button-background-hover-medium: #55555569;
+  --clr--button-background-hover-light: #6d6d6d2f;
 }
 
+/* Body styling */
 body {
+  position: relative;
+  min-height: 100vh;
   margin: 0;
 
   background: linear-gradient(
@@ -28,11 +36,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  position: relative;
-  min-height: 100vh;
 }
 
+/* Keyframes */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -41,5 +47,39 @@ body {
   to {
     opacity: 1;
     visibility: visible;
+  }
+}
+@keyframes fadeOutButton {
+  0% {
+    background-color: var(--clr--button-background-hover-medium);
+  }
+  50% {
+    background-color: var(--clr--button-background-hover-light);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+@keyframes gradientMove {
+  0% {
+    background-position: -100%;
+  }
+  20% {
+    background-position: -99%;
+  }
+  35% {
+    background-position: -80%;
+  }
+  50% {
+    background-position: -70%;
+  }
+  75% {
+    background-position: -25%;
+  }
+  90% {
+    background-position: -10%;
+  }
+  100% {
+    background-position: 0%;
   }
 }
