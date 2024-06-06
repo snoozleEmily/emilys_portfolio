@@ -31,7 +31,7 @@ const flags = [
 
 function Flags({ setLanguage }) {
   const [flagsVisible, setFlagsVisible] = useState(false);
-  console.log(flagsVisible)
+  console.log(flagsVisible);
   const toggleFlagsVisibility = () => {
     setFlagsVisible(!flagsVisible);
   };
@@ -43,7 +43,6 @@ function Flags({ setLanguage }) {
         onClick={toggleFlagsVisibility}
       />
       <div className={`flags-data ${flagsVisible ? "flags-visible" : ""}`}>
-
         {flags.map((flag) => (
           <img
             key={flag.id}

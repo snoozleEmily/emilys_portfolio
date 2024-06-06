@@ -1,5 +1,3 @@
-// I will update this soon since now I am pursuing the data science path o/
-
 const intros = [
   {
     title: `Hello, I'm Emily and I aspire to become a Data Scientist`,
@@ -24,3 +22,4 @@ const intros = [
 ];
 
 export default intros;
+/* Wouldn't it be interesting to change this into a json file? */

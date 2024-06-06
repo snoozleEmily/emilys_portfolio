@@ -7,7 +7,6 @@ import "./App.css";
 
 function App() {
   const [language, setLanguage] = useState(intros[0]);
-
   // eslint-disable-next-line no-unused-vars
   const changeLanguage = (data) => {
     const currentIndex = data.indexOf(language);

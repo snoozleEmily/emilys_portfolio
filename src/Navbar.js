@@ -1,9 +1,8 @@
 import React from "react";
 import "./App.css";
-import Flags from "./flags"
+import Flags from "./flags";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-;
 
 function Navbar({ setLanguage }) {
   return (
@@ -18,10 +17,7 @@ function Navbar({ setLanguage }) {
         <FaLinkedin
           className="icon-data"
           onClick={() =>
-            window.open(
-              "https://www.linkedin.com/in/emily-alvim/",
-              "_blank"
-            )
+            window.open("https://www.linkedin.com/in/emily-alvim/", "_blank")
           }
         />
       </div>
