@@ -1,16 +1,11 @@
-[This project is a WIP]
+<b>[This project is a WIP]</b>
 
-# # **Emily's Coding Journey**
-Welcome to Emily's Coding Journey, a website made for showcasing my progress and experiences as a front-end developer. This site was built using React and the Create React App boilerplate.
+# **Emily's Portfolio**
+This website was made to showcase my progress and experiences as a Data Scientist. It was built using the Create React App boilerplate.
+[Check out the website](https://snoozleemily.github.io/emilys-coding-journey/)!
 
-## Future Projects and Technologies
-I plan to add a section showcasing future projects and new technologies as I learn them on my journey. Stay tuned for more updates!
-
-## Getting Started
-To get started, simply visit the website at 
-
-## Authors
-snoozleEmily - Initial work - Emily's Coding Journey
+## Author
+snoozleEmily
 
 ## License
 This project is licensed under the MIT License - see the [License](LICENSE.md) file for details.
