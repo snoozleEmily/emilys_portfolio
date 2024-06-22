@@ -4,9 +4,6 @@
 This website was made to showcase my progress and experiences as a Data Scientist. It was built using the Create React App boilerplate.
 [Check out the website](https://snoozleemily.github.io/emilys-coding-journey/)!
 
-## Author
-snoozleEmily
-
 ## License
 This project is licensed under the MIT License - see the [License](LICENSE.md) file for details.
 
