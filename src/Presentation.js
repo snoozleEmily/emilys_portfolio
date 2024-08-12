@@ -8,15 +8,22 @@ function Presentation({ language = {} }) {
   const [readMore, setReadMore] = useState(false);
 
   if (!presentationText.trim()) {
-    console.log("Language prop is empty or undefined.");
+    console.log(
+      "Error: The 'presentationText' property in the 'language' prop is empty or undefined."
+    );
   }
 
   return (
     <article className="presentation-container-data">
       <h1 className="title-data">{presentationTitle}</h1>
       <p className="presentaition-data">{presentationText}</p>
-      <button className="read-more">read more...</button>
-      {readMore && <More />}
+      {readMore && <More text={language.readMore} />}
+      <button
+        className="read-more-button"
+        onClick={() => setReadMore((prevState) => !prevState)}
+      >
+        {readMore ? "Read less..." : "Read more..."}
+      </button>
     </article>
   );
 }

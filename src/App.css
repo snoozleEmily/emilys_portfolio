@@ -78,22 +78,27 @@
 /* Flags grid container styling */
 .flags-data {
   display: inline-grid;
-  position: absolute;
+  position: absolute;  
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 4px;
   top: 38%;
   right: 0%;
   margin-left: auto;
-  margin-right: 8px;
+  margin-right: 8px;  
   opacity: 0;
-  visibility: hidden;
-}
+  visibility: hidden;  
 
-/* Individual flag styling */
+}
 .flag-data {
+  /* Don't merge both flags-data because the flags style gets
+  disrupted if the width is declared alonside the grid-template-columns */
   width: 25px;
 }
-
+.flags-visible {
+  opacity: 1;
+  visibility: visible;
+  animation: fadeIn 0.5s ease forwards;
+}
 /* Hover effect for flags */
 .flag-data:hover {
   width: 27px;
@@ -138,7 +143,7 @@
 }
 
 /* Read more link styling */
-.read-more {
+.read-more-button {
   position: relative;
   bottom: -15px;
   font-size: 16px;
@@ -154,7 +159,7 @@
 }
 
 /* Hover effect for read more link */
-.read-more:hover {
+.read-more-button:hover {
   color: var(--clr--button--hover);
   letter-spacing: 0.8px;
   padding: 0 10px 0 1x;
@@ -168,8 +173,10 @@
   background-position: 0%;
   animation: gradientMove 0.3s ease-in-out;
 }
-
 /* Active state for read more link */
-.read-more:active {
+.read-more-button:active {
   animation: fadeOutButton 0.3s ease-out;
+}
+.read-more-text{
+  animation: fadeInSlideUp 0.5s ease-in-out; 
 }
