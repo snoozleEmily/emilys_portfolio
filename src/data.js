@@ -1,6 +1,6 @@
 const intros = [
   {
-    title: "Hi, I'm Emily. A Passionate Data Scientist!",
+    title: "Hi, I'm Emily, A Passionate Data Scientist!",
     presentation: `
       Combining a background in ESL teaching with recent experience in QA testing, 
       I'm now immersed in a Data Science university program. I have a passion for technology 
@@ -22,7 +22,7 @@ const intros = [
     `,
   },
   {
-    title: "Oi, eu sou a Emily. Apaixonada por Ciência de Dados!",
+    title: "Oi, eu sou a Emily, Apaixonada por Ciência de Dados!",
     presentation: `
       Desde minha experiência como professora de inglês até minha experiência recente 
       como QA tester, agora tenho meu foco no curso de Ciência de Dados. Tenho uma paixão 
@@ -45,7 +45,7 @@ const intros = [
     `,
   },
   {
-    title: "Hola, soy Emily. ¡Apasionada por la Ciencia de Datos!",
+    title: "Hola, soy Emily, ¡Apasionada por la Ciencia de Datos!",
     presentation: `
       Desde mi experiencia como profesora de inglés hasta mi reciente experiencia como QA tester, 
       ahora mi enfoque está en la universidad de Ciencia de Datos. Me apasiona la tecnología y 
@@ -69,7 +69,7 @@ const intros = [
     `,
   },
   {
-    title: "Bonjour, je suis Emily. Passionnée par la Science des Données!",
+    title: "Bonjour, je suis Emily, Passionnée par la Science des Données!",
     presentation: `
       Depuis mon expérience dans l'enseignement de l'anglais jusqu'à mon poste récent en QA testing, 
       je mets désormais le cap sur le cours de Data Science. J'ai une passion pour la technologie 
